@@ -80,15 +80,24 @@
 #AboutSection{
     min-height: 100vh;
     padding: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-info{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    /* align-items: center; */
+    width: 80%;
+}
+
+.info-name{
+    margin-bottom: .5em;
 }
 
 
 .dev-icon{
     display: inline;
-    width: 2em;
+    width: 1.5em;
 }
