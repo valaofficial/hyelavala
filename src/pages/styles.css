@@ -83,6 +83,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .about-info{
@@ -100,4 +101,34 @@
 .dev-icon{
     display: inline;
     width: 1.5em;
+}
+
+.info-stats{
+    margin-top: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.stats-years{
+    padding: 1em;
+    border: 1px solid #D64933;
+    text-align: center;
+    width: 50%;
+}
+
+.stats-projects{
+    padding: 1em;
+    border: 1px solid #D64933;
+    background-color: #D64933;
+    color: #FFE8D4;
+    text-align: center;
+    width: 50%;
+}
+
+/* Works Section Styles  */
+
+#WorksSection{
+    min-height: 100vh;
 }

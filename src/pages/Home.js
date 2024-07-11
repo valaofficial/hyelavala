@@ -5,6 +5,7 @@ export default function Home() {
     <>
         <HeroSection/>
         <AboutSection/>
+        <WorksSection/>
     </>
   );
 }
@@ -48,17 +49,35 @@ function HeroSection() {
                 Hackathon and fell in love with the joys of coding and building things
               </div>
               <div className='text-sm text-justify'>
-                Since then got my first internship at a Software development firm in 2021,
-                worked as a Frontend Engineer and worked on a lot of presonal and freelance
+                Since then I got my first internship at a Software development firm in 2021,
+                worked as a Frontend Engineer for a while and worked on a lot of presonal and freelance
                 projects
-              </div>
-              <div>
-                <div></div>
-                <div></div>
-                <div></div>
               </div>
             </div>
          </div>
+
+         <div className='info-stats'>
+            <div className='stats-years'>
+              <div className='text-4xl font-bold'>4+</div>
+              <div className='text-xs font-semibold'>YEARS OF EXPERIENCE</div>
+            </div>
+            <div className='stats-projects'>
+              <div className='text-4xl font-bold'>8+</div>
+              <div className='text-xs font-semibold'>PROJECTS WORKED ON</div>
+            </div>
+            {/* <div>
+              <div>8</div>
+              <div>CLIENTS SERVED</div>
+            </div> */}
+          </div>
+      </section>
+    );
+  }
+
+  function WorksSection() {
+    return (
+      <section id="WorksSection">
+         
       </section>
     );
   }

@@ -9,8 +9,8 @@ export default function Navigation() {
 
         <div className="nav_links">
             <div className='font-semibold'>Home</div>
-            <div className='font-semibold'>Works</div>
             <div className='font-semibold'>About</div>
+            <div className='font-semibold'>Works</div>
             <div className='font-semibold'>Services</div>
         </div>
 
