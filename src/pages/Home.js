@@ -1,5 +1,5 @@
 import './styles.css'
-
+import ProjectCard from '../components/ProjectCard';
 export default function Home() {
   return (
     <>
@@ -77,7 +77,7 @@ function HeroSection() {
   function WorksSection() {
     return (
       <section id="WorksSection">
-         
+         <ProjectCard/>
       </section>
     );
   }

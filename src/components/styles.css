@@ -1,0 +1,23 @@
+#ProjectCard{  
+    min-height: 30em;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-details-btn{
+    padding: 1em;
+    background-color: #ffffff;
+    border-radius: 20em;
+}
+
+.project-details-btn img{
+    width: 1.5em;
+    transform: rotate(180deg);
+}
