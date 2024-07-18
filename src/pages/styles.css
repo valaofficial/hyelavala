@@ -89,7 +89,6 @@
 .about-info{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     width: 80%;
 }
 
@@ -132,4 +131,45 @@
 #WorksSection{
     min-height: 100vh;
     padding: 4em;
+}
+
+
+/* MEDIA QUERIES  */
+
+@media only screen and (max-width: 769px) {
+    #HeroSection{
+        /* background-color: #D64933; */
+    }
+
+    #AboutSection{
+        padding: 1.5em;
+    }
+
+    .about-info{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-tagline{
+        margin-bottom: 1em;
+    }
+    
+    .info-stats{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .stats-years{
+        width: 100%;
+    }
+    
+    .stats-projects{
+        width: 100%;
+    }
+
+    #WorksSection{
+        padding: .5em;
+    }
 }

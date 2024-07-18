@@ -40,15 +40,15 @@ function HeroSection() {
          <div className='about-info'>
             <div className='info-tagline'>
               <div className='info-name text-2xl font-semibold'>MAINA <span><img className='dev-icon' src='/images/icons/dev.png' alt='Developer'/></span> HYELAVALA</div>
-              <div className='text-4xl w-2/3 font-bold'>Let's Make Some Magic Happen.</div>
+              <div className='text-4xl lg:w-2/3 w-full font-bold about-tagline'>Let's Make Some Magic Happen.</div>
             </div>
-            <div className='information w-5/6'>
-              <div className='text-xl font-bold text-justify mb-5'>
+            <div className='information lg:w-5/6 w-full'>
+              <div className='text-xl font-bold lg:text-justify text-center mb-5'>
                 Hello! My name is Hyelavala and I enjoy creating awesome user interfaces 
                 using my skills, I started my journey in 2019 when i attended my first 
                 Hackathon and fell in love with the joys of coding and building things
               </div>
-              <div className='text-sm text-justify'>
+              <div className='text-sm lg:text-justify text-center'>
                 Since then I got my first internship at a Software development firm in 2021,
                 worked as a Frontend Engineer for a while and worked on a lot of presonal and freelance
                 projects
